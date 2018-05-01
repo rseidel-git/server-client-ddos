@@ -42,14 +42,3 @@ You need to create a solution with 2 projects (one for the client and one for th
                                                 After the time frame has ended, the client's first request will open a new time frame and so forth.
 
                 d.            The server will run until key press after which it will gracefully drain all the threads/tasks and will exit.
-
-
-3. General notes
-
-                a.            Pay attention to thread safeness.
-
-                b.            The solution should be as simple as possible (avoid over design/engineering).
-
-                c.             The solution should be clean piece of code so please write it as it was a production code (use your own standards/conventions).
-
-                d.            Please confirm the reception and understanding of the coding interview
